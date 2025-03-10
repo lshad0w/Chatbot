@@ -36,7 +36,7 @@
     <div class="overlay-container">
         <!-- Left Side - Character Image -->
         <div class="character-container">
-            <img src="woo.png" alt="Drippy Woo" class="character-img">
+            <img src="../images/woo.png" alt="Drippy Woo" class="character-img">
             
         </div>
         
