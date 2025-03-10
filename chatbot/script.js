@@ -75,14 +75,14 @@ const getChatResponse = async (userText) => {
     console.log("User input:", userText);
 
     // Append user message with icon
-    appendMessage(userText, "user-message", "user-icon.jpg");//user image path
+    appendMessage(userText, "user-message", "../images/user-icon.jpg");//user image path
 
     //Bot message placeholder
     const botPlaceholder = document.createElement("div");
     botPlaceholder.classList.add("chat-message", "bot-message");
 
     const botIcon = document.createElement("img");
-    botIcon.src = "drippywoo-drippy.jpg";//Chatbot's image path
+    botIcon.src = "../images/drippywoo-drippy.jpg";//Chatbot's image path
     botIcon.alt = "Chat Icon";
     botIcon.classList.add("chat-icon");
 
