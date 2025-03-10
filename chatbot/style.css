@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url("background.png");
+    background-image: url("../images/background.png");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -266,11 +266,9 @@ textarea:focus {
 
 /* Modal Box */
 .modal-box {
-    /* background: url('https://steamuserimages-a.akamaihd.net/ugc/1662350370204086114/4A55A999A443178DB47A09E8620DB7298570F0B8/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=truehttps://steamuserimages-a.akamaihd.net/ugc/1662350370204086114/4A55A999A443178DB47A09E8620DB7298570F0B8/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true') center/250%; 
-    The 150% makes it zoom in, adjust to your preference */
     
-    border: 20px solid transparent; /* Adjust border width */
-    border-image: url('frameeee.png') 30 stretch; /* Use extracted corner border */
+    border: 20px solid transparent;
+    border-image: url('../images/frameeee.png') 30 stretch;
     box-shadow: 0 0 15px cyan;
     padding: 20px;
     border-radius: 10px;
