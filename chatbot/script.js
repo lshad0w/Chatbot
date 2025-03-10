@@ -116,7 +116,7 @@ const getChatResponse = async (userText) => {
         sessionStorage.setItem("chatHistory", JSON.stringify(chatHistory));
     } catch (error) {
         console.error("Error fetching Gemini response:", error);
-        botBubble.innerHTML = `<div class="chat-body-inner left error-message"><p>[System Alert] Unable to retrieve response. Try again later.</p></div>`;
+        botBubble.innerHTML = `<div class="chat-body-inner left error-message"><p>[System Alert] Unable to retrieve response. Have you generated your own gemini API key human?.</p></div>`;
     }
 
     scrollToBottom();
